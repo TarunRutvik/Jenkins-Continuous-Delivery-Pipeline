@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-        DIRECTORY_PATH = "path/to/code/directory"
-        TESTING_ENVIRONMENT = "name_of_testing_environment"
+        DIRECTORY_PATH = "www.github.com/TarunRutvik/Jenkins-Continuous-Delivery-Pipeline.git"
+        TESTING_ENVIRONMENT = "local Machine"
         PRODUCTION_ENVIRONMENT = "Tarun"
     }
 
