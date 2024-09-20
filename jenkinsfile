@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DIRECTORY_PATH = "www.github.com/TarunRutvik/Jenkins-Continuous-Delivery-Pipeline.git"
+        DIRECTORY_PATH = "https://github.com/TarunRutvik/Jenkins-Continuous-Delivery-Pipeline"
         TESTING_ENVIRONMENT = "local Machine"
         PRODUCTION_ENVIRONMENT = "Tarun"
     }
